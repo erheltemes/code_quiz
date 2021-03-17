@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="highscore-button">
+            <button>View Highscores</button>
+        </div>
+        <div class="timer">
+            <h2>Time: 75</h2>
+        </div>    
+    </header>
+
+    <main>
+        <div class="start-box box-template">
+            <h2>CODING QUIZ CHALLENGE</h1>
+            <p>Timer will start when you press"start"</p>
+            <p>Wrong answers will increase timer by 10 seconds</p>
+            <button id="start-button">Start</button>
+        </div>
+
+        <div class="question-box box-template">
+            <h2>Question</h2>
+            <div class="answers">
+                <div>
+                    <button>Answer 1</button>
+                    <span>: Answer 1</span>
+                </div>
+                <div>
+                    <button>Answer 2</button>
+                    <span>: Answer 2</span>
+                </div>
+                <div>
+                    <button>Answer 3</button>
+                    <span>: Answer 3</span>
+                </div>
+                <div>
+                    <button>Answer 4</button>
+                    <span>: Answer 4</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="final-score-box box-template">
+            <h2>QUIZ FINSISHED</h2>
+            <p>Your final score was:</p>
+            <label for="intials-input">Please insert intials and press 
+            "Enter":</label>
+            <input id="intials-input" name="intials-input" type="text">
+        </div>
+
+        <div class="highscores">
+
+        </div>
+
+        <script src="assets/js/script.js"></script>
+    </main>
+    </body>
+</html>
